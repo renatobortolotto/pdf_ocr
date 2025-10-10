@@ -1,0 +1,9 @@
+requests>=2.31.0
+PyPDF2>=3.0.0
+pdf2image>=1.17.0
+pytesseract>=0.3.10
+pillow>=10.0.0
+opencv-python-headless>=4.8.0
+numpy>=1.26.0
+# Instale somente se for usar GCS
+google-cloud-storage>=2.8.0

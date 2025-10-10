@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+.dist/
+.env
+.venv/
+venv/
+ENV/
+.envrc
+
+# Editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & caches
+*.log
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Virtualenvs
+.python-version
+
+# Local environment files
+.env*
+*.env
+
+# Project-specific
+secret/
+*.jsonl
+payload-*.json
+*.tmp
+*.bak
+
+# PDFs and derived files
+pdfs/imgs/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Text artifacts (generated)
+concat-text-*.txt
+
+# Ignore anything generated at runtime
+*.out
+*.lock
